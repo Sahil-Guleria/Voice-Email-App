@@ -100,7 +100,6 @@ public class Main4Activity extends AppCompatActivity {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     editTextMessage.setText(result.get(0));
 
-                  //  String email = "guleriasunny179@gmail.com";
 
 
                     tv.setText(getIntent().getStringExtra("NAME").replaceAll("underscore", "_"));
